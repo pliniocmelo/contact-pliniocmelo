@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.main {
+    display: inline-flex;
+    width: 100vw;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    background: url(../assets/bg-rocket.svg) no-repeat center/cover;
+}
+.main-left{
+    display: inline-block;
+    color: white;
+    width: 55%;
+    padding: 30px;
+    
+}
+
+.main-left p{
+    display: inline-flex;
+    padding: 10px 0;
+
+}
+
+.main-btn a{
+    font-weight: 700;
+    display: inline-flex;
+    text-decoration: none;
+    margin-top: 20px;
+    color: aliceblue;
+    padding: 10px 30px;
+
+
+    background-color: rgb(169, 36, 16);
+
+    border-radius: 13px;
+   
+}
+
+.main-btn a:hover{
+    background-color: rgb(80, 19, 9);
+    animation: 0.5s;
+
+}
