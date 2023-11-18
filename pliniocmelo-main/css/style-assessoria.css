@@ -51,11 +51,13 @@ body{
     background-color: rgb(169, 36, 16);
 
     border-radius: 13px;
+
+    transition: background-color 0.3s ease, color 0.3s ease;
    
 }
 
 .main-btn a:hover{
     background-color: rgb(80, 19, 9);
-    animation: 0.5s;
+
 
 }
